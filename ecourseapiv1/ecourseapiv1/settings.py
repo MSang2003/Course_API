@@ -88,9 +88,9 @@ WSGI_APPLICATION = 'ecourseapiv1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'k21coursedbv1',
+        'NAME': 'ecourseapp',
         'USER': 'root',
-        'PASSWORD': 'Admin@123',
+        'PASSWORD': 'Sang@150203',
         'HOST': ''  # mặc định localhost
     }
 }
@@ -98,9 +98,9 @@ DATABASES = {
 import cloudinary
 
 cloudinary.config(
-    cloud_name="dxxwcby8l",
-    api_key="448651448423589",
-    api_secret="ftGud0r1TTqp0CGp5tjwNmkAm-A"
+    cloud_name="dzcj0i6fy",
+    api_key="717492316814942",
+    api_secret="mX2l-A2gkc1C2zuYii9JAEfWc14"
 )
 
 # Password validation
